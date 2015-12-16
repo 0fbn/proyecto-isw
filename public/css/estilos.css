@@ -1,0 +1,49 @@
+input,h1,h2,p{
+	text-align:center;
+}
+
+img{
+	margin:auto;
+	display:block;
+}
+
+form{
+	width: 60%;
+	border: 5px solid #ccc;
+	margin:auto;
+	padding:20px;
+	display:block;
+}
+
+.navigation{
+	margin-bottom:5px;
+	padding:13px 5px;
+	background: #3bb3c3; 
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li{
+	margin:0px;
+	padding:0px 35px;
+	display:inline;
+	font-size:14px;
+	list-style-type:none;
+	border-right:#ffffff dotted 1px; 
+}
+
+.navigation ul li a{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+}
+
+.navigation ul li:last-child {
+	border-right:none;
+}
